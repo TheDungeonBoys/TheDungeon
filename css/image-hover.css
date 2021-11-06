@@ -1,0 +1,22 @@
+#tag-pedroWrapper {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 175px;
+    left: 40px;
+}
+
+#tag-pedro {
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    border-color: green;
+    position: relative;
+    /* top: 175px;
+    left: 40px; */
+    visibility: hidden;
+}
+
+#tag-pedroWrapper:hover #tag-pedro {
+    visibility: visible;
+}
